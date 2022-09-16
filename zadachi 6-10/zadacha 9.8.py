@@ -1,6 +1,6 @@
 import random
+import numpy
 counter = 0
-bolshe = []
 m = random.randint(1, 10)
 n = random.randint(1, 10)
 matrix = [[0]*m for i in range(n)]
@@ -14,5 +14,14 @@ for i in range(len(matrix)):
 
 
 t = list(map(list,zip(*matrix)))
-print(t)
+
 for i in range(len(t)):
+    srarif = numpy.mean(t[i])
+    for j in range(len(t[i])):
+        if t[i][j]>srarif:
+            counter+=1
+    print('Кол-во элементов в столбце №'+str(i)+': ', counter)
+    counter=0
+
+
+
