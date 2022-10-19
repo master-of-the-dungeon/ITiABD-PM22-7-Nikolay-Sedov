@@ -1,11 +1,7 @@
 import random
 import numpy
 
-def srarif(a):
-    sum = 0
-    for i in range(len(a)):
-        sum+=a[i]
-    sum//=len(a)
+
 
 counter = 0
 m = random.randint(1, 10)
