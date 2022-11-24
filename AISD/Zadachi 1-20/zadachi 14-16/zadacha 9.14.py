@@ -1,13 +1,46 @@
 import math
-def TypeTrl(A, B, C):
-  a = round(math.sqrt((B[0] - A[0])**2 + (B[1] - A[1])**2 + (B[2] - A[2])**2), 4)
-  b = round(math.sqrt((C[0] - B[0])**2 + (C[1] - B[1])**2 + (C[2] - B[2])**2), 4)
-  c = round(math.sqrt((A[0] - C[0])**2 + (A[1] - C[1])**2 + (A[2] - C[2])**2), 4)
-  if a == b == c:
-    print("Равносторонний")
-  elif a == b or b == c or a == c:
-    print("Равнобедренный")  
-  elif (a**2 == b**2 + c**2) or (b**2 == a**2 + c**2) or (c**2 == a**2 + b**2):
-    print("Прямоугольный")
-  else:
-    print("Обычный")
+def raschet(a,b,c):
+  def xxy(x, y):
+    if int(x[0]) > int(y[0]):
+      ab = int(x[0]) - int(y[0])
+      return ab
+    elif int(x[0]) < int(y[0]):
+      ab = int(x[0]) - int(y[0])
+      return ab
+    else:
+      return 0
+
+
+  def yxy(x, y):
+    if int(x[1]) > int(y[1]):
+      ab = int(x[1]) - int(y[1])
+      return ab
+    elif int(x[1]) < int(y[1]):
+      ab = int(x[1]) - int(y[1])
+      return ab
+    else:
+      return 0
+
+  def pif(x, y):
+    return math.sqrt((xxy(x, y) ** 2) + (yxy(x, y) ** 2))
+
+  a1 = pif(a, b)
+  b1 = pif(b, c)
+  c1 = pif(a, c)
+  return a1,b1,c1
+
+a = input('Введите координаты первой точки через пробел: ').split()
+b = input('Введите координаты второй точки через пробел: ').split()
+c = input('Введите координаты третьей точки через пробел: ').split()
+
+print(raschet(a,b,c))
+
+
+if raschet(a,b,c)[0] == raschet(a,b,c)[1] == raschet(a,b,c)[2]:
+  print("Равносторонний")
+elif raschet(a,b,c)[0] == raschet(a,b,c)[1] or raschet(a,b,c)[1] == raschet(a,b,c)[2] or raschet(a,b,c)[0] == raschet(a,b,c)[2]:
+  print("Равнобедренный")
+elif (raschet(a,b,c)[0]**2 == raschet(a,b,c)[1]**2 + raschet(a,b,c)[2]**2) or (raschet(a,b,c)[1]**2 == raschet(a,b,c)[0]**2 + raschet(a,b,c)[2]**2) or (raschet(a,b,c)[2]**2 == raschet(a,b,c)[0]**2 + raschet(a,b,c)[1]**2):
+  print("Прямоугольный")
+else:
+  print("Обычный")
