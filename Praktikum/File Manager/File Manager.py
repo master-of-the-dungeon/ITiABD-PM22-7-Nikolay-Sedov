@@ -165,4 +165,5 @@ def set_value(path='', name='', value='', column=0):
             ts[ind][column] = value
     return ts
 
-create_table(doctype='pickle',path='/Users/nikolaysedoff/PycharmProjects/ITiABD-PM22-7-Nikolay-Sedov/Praktikum/File Manager',name='default',pickledata={})
+create_table(doctype='pickle',path='/Users/nikolaysedoff/PycharmProjects/ITiABD-PM22-7-Nikolay-Sedov/Praktikum/File Manager',name='test',pickledata={})
+load_table(doctype='txt',path='/Users/nikolaysedoff/PycharmProjects/ITiABD-PM22-7-Nikolay-Sedov/Praktikum/File Manager',name='test')
