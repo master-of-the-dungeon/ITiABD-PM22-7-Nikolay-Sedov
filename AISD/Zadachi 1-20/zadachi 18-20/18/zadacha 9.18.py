@@ -1,8 +1,8 @@
-file = open('/Users/nikolaysedoff/PycharmProjects/ITiABD-PM22-7-Nikolay-Sedov/AISD/Zadachi 1-20/zadachi 18-20/18/text.txt', 'r')
-s = file.readline()
+f18 = open('18.txt', 'r', encoding="utf8")
+s = f18.readline()
 a = ''
 while s:
     n = (50 - len(s)) // 2 + len(s) % 2
     print(' ' * n, s, sep='')
-    s = file.readline()
+    s = f18.readline()
 

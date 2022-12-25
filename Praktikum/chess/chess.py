@@ -1,11 +1,8 @@
-# проверяет ввод на корректность
-# преобразует координаты шахматного поля в координаты двумерного списка
-# ввод координат может быть в форматах: "1a", "a1", "1A", "1 a"
 def get_check_coordinates(s):
     s = s.lower()
     s = s.replace(" ", "")
 
-    # проверяем и преобразуем числовую координату
+
     if len(s) == 2 and s[0] in '12345678' and s[1] in 'abcdefgh':
         x, y = 8 - int(s[0]), s[1]
     elif len(s) == 2 and s[1] in '12345678' and s[0] in 'abcdefgh':
@@ -13,7 +10,7 @@ def get_check_coordinates(s):
     else:
         return False
 
-    # преобразуем буквенную координату
+
     for i in range(8):
         if y == 'abcdefgh'[i]:
             y = i
@@ -21,7 +18,7 @@ def get_check_coordinates(s):
     return x, y
 
 
-# получает координаты фигуры, проверяет на корректность, диагностирует ошибки
+
 def error_diagnos_figure(x0, y0, color, figures, board_):
     if board_.board[x0][y0] == '·':
         print("Вы не выбрали фигуру! ", end='')
@@ -30,7 +27,7 @@ def error_diagnos_figure(x0, y0, color, figures, board_):
         print("Вы не можете ходить фигурой соперника! ", end='')
         return None
 
-    # проверяем, есть ли хоть один возможный ход для фигуры
+
     for i in figures:
         if i.x0 == x0 and i.y0 == y0:
             f = i
@@ -39,12 +36,12 @@ def error_diagnos_figure(x0, y0, color, figures, board_):
         for j in range(8):
             if f.is_available(i, j, board_) == True:
                 return x0, y0
-    # если нет
+
     print("Эта фигура не может никуда ходить! ", end='')
     return None
 
 
-# получает координаты фигуры и проверяет на корректность, диагностирует ошибки
+
 def error_diagnos(x0, y0, x, y, color, figures, board_):
     if board_.board[x][y] != '·' and board_.board[x][y].isupper() == color:
         print("Выбранная позиция уже занята вашей фигурой! ", end='')
@@ -57,7 +54,7 @@ def error_diagnos(x0, y0, x, y, color, figures, board_):
     return x0, y0, x, y
 
 
-# конь
+
 class Knight():
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -155,12 +152,12 @@ class Pawn():
                     (self.x0 == 1 and x == 3 and board_.board[2][self.y0] == board_.board[3][
                         self.y0] == '·' and self.color == False):
                 return True
-            # не первый ход(короткий)
+
             elif board_.board[x][y] == '·' and \
                     ((self.color == True and self.x0 - x == 1) or \
                      (self.color == False and self.x0 - x == -1)):
                 return True
-        # ход, когда бьет (по диагонали вперед-влево/вперед-вправо на одну)
+
         elif abs(y - self.y0) == 1 and board_.board[x][y] != '·' and \
                 ((self.color == True and self.x0 - x == 1) or \
                  (self.color == False and self.x0 - x == -1)):
@@ -277,7 +274,7 @@ class Board():
         print('   A B C D E F G H')
         print()
 
-    # определяет находится ли фигура под боем фигур другого цвета
+
     def is_figure_under_fight(self, x_p, y_p, figures, color):
 
         for i in range(8):
@@ -290,7 +287,7 @@ class Board():
                             return True
         return False
 
-    # функция вывода игровой доски с выделением доступных ходов
+
     def show_figures_under_fight(self, figures, color):
         print('Фигуры под боем: ')
         print('   A B C D E F G H')
@@ -313,7 +310,7 @@ class Board():
         print(' └─────────────────┘')
         print('   A B C D E F G H')
 
-    # функция заполнения игровой доски фигурами
+
     def fill(b):
         figures = {
             Rook(0, 0, False, b),
@@ -357,57 +354,12 @@ class Board():
         }
         return figures
 
-    # функция заполнения игровой доски фигурами
-    def fill_new(b):
-        figures = {
-            Rook(0, 0, False, b),
-            Rook(0, 7, False, b),
-            Rook(7, 0, True, b),
-            Rook(7, 7, True, b),
 
-            Camel(0, 1, False, b),
-            Camel(0, 6, False, b),
-            Knight(7, 1, True, b),
-            Knight(7, 6, True, b),
-
-            Bishop(0, 2, False, b),
-            Bishop(0, 5, False, b),
-            Bishop(7, 2, True, b),
-            Bishop(7, 5, True, b),
-
-            Dragon(0, 3, False, b),
-            Centaur(7, 3, True, b),
-
-            King(0, 4, False, b),
-            King(7, 4, True, b),
-
-            Pawn(1, 0, False, b),
-            Pawn(1, 1, False, b),
-            Pawn(1, 2, False, b),
-            Pawn(1, 3, False, b),
-            Pawn(1, 4, False, b),
-            Pawn(1, 5, False, b),
-            Pawn(1, 6, False, b),
-            Pawn(1, 7, False, b),
-
-            Pawn(6, 0, True, b),
-            Pawn(6, 1, True, b),
-            Pawn(6, 2, True, b),
-            Pawn(6, 3, True, b),
-            Pawn(6, 4, True, b),
-            Pawn(6, 5, True, b),
-            Pawn(6, 6, True, b),
-            Pawn(6, 7, True, b)
-        }
-        return figures
-
-
-# главная функция
 def main_chess(b, figures):
     move_number = 1
 
     while True:
-        # белый цвет - True или 1, черный - False или 0
+
         color = move_number % 2
         if color == True:
             print(move_number, "Ход белых:")
@@ -436,11 +388,9 @@ def main_chess(b, figures):
             print("Игра окончена.")
             break
 
-        # проверяем координаты поля на корректность
-        # преобразуем их в координаты двумерного списка
-        # проверяем ход на корректность
+
         try:
-            # пробуем расшифровать координаты
+
 
             x, y = get_check_coordinates(s2)
             x0, y0, x, y = error_diagnos(x0, y0, x, y, color, figures, b)
@@ -451,7 +401,7 @@ def main_chess(b, figures):
             print()
             continue
 
-        # если все получилось, и получены корректные координаты, делаем ход
+
         move_number += 1
         for i in figures:
             if i.x0 == x0 and i.y0 == y0:
@@ -461,19 +411,14 @@ def main_chess(b, figures):
                 i.y0 = y
 
 
-# main()
+
 
 
 def main():
-    x = input("Выберите 1 - шахматы, 2 - шахматы с новыми фигурами")
-    if x == "1":
-        b = Board()
-        figures = Board.fill(b)
-        main_chess(b, figures)
-    elif x == "2":
-        b = Board()
-        figures = Board.fill_new(b)
-        main_chess(b, figures)
+    b = Board()
+    figures = Board.fill(b)
+    main_chess(b, figures)
+
 
 
 main()
