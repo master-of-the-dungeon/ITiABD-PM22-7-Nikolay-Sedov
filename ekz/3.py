@@ -6,12 +6,14 @@
 # выдано: имя функции subfunс, первый параметр позиционный целого типа, второй
 # параметр ключевой вещественного типа.
 import inspect
+
 def func(f):
-    print(inspect.currentframe().f_back)
+    pass
+
 
 
 def subfunc(*x, **y):
-    # print(y)
+    print("Имя субфункции: " + subfunc.__name__)
     for i in y.keys():
         print(i)
         if type(y[i]) == int:
