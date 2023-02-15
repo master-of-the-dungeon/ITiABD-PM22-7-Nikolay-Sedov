@@ -12,5 +12,6 @@ ax.set_facecolor('seashell')
 fig.set_facecolor('floralwhite')
 fig.set_figwidth(17)    #  ширина Figure
 fig.set_figheight(6)    #  высота Figure
+plt.xticks(rotation=90)
 
 plt.show()

@@ -1,15 +1,16 @@
+import math
 class Cone:
     def __init__(self, radius, height):
         self.radius = radius
         self.height = height
 
     def calculate_volume(self):
-        return (1 / 3) * 3.1415 * (self.radius ** 2) * self.height
+        return (1 / 3) * math.pi * (self.radius ** 2) * self.height
 
     def calculate_area(self):
         slant_height = (self.radius ** 2 + self.height ** 2) ** 0.5
-        base_area = 3.1415 * (self.radius ** 2)
-        lateral_area = 3.1415 * self.radius * slant_height
+        base_area = math.pi * (self.radius ** 2)
+        lateral_area = math.pi * self.radius * slant_height
         return base_area + lateral_area
 
 

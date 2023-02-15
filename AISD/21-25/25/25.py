@@ -43,7 +43,7 @@ n = 4
 
 transport_list = [
     Airplane("Boeing 747", 900, 12000, 400, (55.75, 37.62)),
-    Car("Toyota Camry", "A123BC", 2015, (55.75, 37.62)),
+    Car("Honda Pilot ", "Е811КК197", 2015, (55.75, 37.62)),
     Ship("Queen Mary 2", 30, 2500, "Southampton", (50.9, -1.4)),
     Airplane("Airbus A320", 840, 11000, 200, (55.41, 37.9))
 ]

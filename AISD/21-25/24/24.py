@@ -9,11 +9,11 @@ class Triangle:
     @property
     def type(self):
         if self.angle_b == self.angle_c == 60:
-            return "Equilateral"
+            return "Равносторонний"
         elif self.angle_b == self.angle_c or self.angle_b + self.angle_c == 90 or self.angle_b == 90 or self.angle_c == 90:
-            return "Isosceles or Right"
+            return "Равнобедренный или Прямоугольный"
         else:
-            return "Scalene"
+            return "Обычный (не равносторонний, не равнобедренный и не прямоугольный"
 
     def compute_sides(self):
         b = self.a * math.sin(math.radians(self.angle_b)) / math.sin(math.radians(180 - self.angle_b - self.angle_c))
