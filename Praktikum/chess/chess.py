@@ -16,9 +16,6 @@ def get_check_coordinates(s):
             y = i
             break
     return x, y
-
-
-
 def error_diagnos_figure(x0, y0, color, figures, board_):
     if board_.board[x0][y0] == '·':
         print("Вы не выбрали фигуру! ", end='')
@@ -39,9 +36,6 @@ def error_diagnos_figure(x0, y0, color, figures, board_):
 
     print("Эта фигура не может никуда ходить! ", end='')
     return None
-
-
-
 def error_diagnos(x0, y0, x, y, color, figures, board_):
     if board_.board[x][y] != '·' and board_.board[x][y].isupper() == color:
         print("Выбранная позиция уже занята вашей фигурой! ", end='')
@@ -52,9 +46,6 @@ def error_diagnos(x0, y0, x, y, color, figures, board_):
                 print("Выбранная фигура так не ходит! ", end='')
                 return None
     return x0, y0, x, y
-
-
-
 class Knight():
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -65,7 +56,6 @@ class Knight():
         else:
             self.icon = "n"
         board_.board[self.x0][self.y0] = self.icon
-
     def is_available(self, x, y, board_):
         if board_.board[x][y] != '·' and board_.board[x][y].isupper() == self.color:
             return False
@@ -73,8 +63,6 @@ class Knight():
             return True
         else:
             return False
-
-
 class Rook():
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -85,7 +73,6 @@ class Rook():
         else:
             self.icon = "r"
         board_.board[self.x0][self.y0] = self.icon
-
     def is_available(self, x, y, board_):
         if board_.board[x][y] != '·' and board_.board[x][y].isupper() == self.color:
             return False
@@ -102,8 +89,6 @@ class Rook():
                     return False
             return True
         return False
-
-
 class Bishop():
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -114,7 +99,6 @@ class Bishop():
         else:
             self.icon = "b"
         board_.board[self.x0][self.y0] = self.icon
-
     def is_available(self, x, y, board_):
         if board_.board[x][y] != '·' and board_.board[x][y].isupper() == self.color:
             return False
@@ -128,8 +112,6 @@ class Bishop():
                 j += step_x
             return True
         return False
-
-
 class Pawn():
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -163,8 +145,6 @@ class Pawn():
                  (self.color == False and self.x0 - x == -1)):
             return True
         return False
-
-
 class Queen(Rook, Bishop):
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -181,8 +161,6 @@ class Queen(Rook, Bishop):
             return True
         else:
             return False
-
-
 class King():
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -200,8 +178,6 @@ class King():
         if abs(x - self.x0) <= 1 and abs(y - self.y0) <= 1:
             return True
         return False
-
-
 class Camel():
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -220,8 +196,6 @@ class Camel():
             return True
         else:
             return False
-
-
 class Centaur(Bishop, Knight):
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -238,8 +212,6 @@ class Centaur(Bishop, Knight):
             return True
         else:
             return False
-
-
 class Dragon(King, Bishop):
     def __init__(self, x, y, color, board_):
         self.x0 = x
@@ -256,8 +228,6 @@ class Dragon(King, Bishop):
             return True
         else:
             return False
-
-
 class Board():
     def __init__(self):
         self.board = []
@@ -273,8 +243,6 @@ class Board():
         print(' └─────────────────┘')
         print('   A B C D E F G H')
         print()
-
-
     def is_figure_under_fight(self, x_p, y_p, figures, color):
 
         for i in range(8):
@@ -286,8 +254,6 @@ class Board():
                         if r.is_available(x_p, y_p, self) == True and r.color != color:
                             return True
         return False
-
-
     def show_figures_under_fight(self, figures, color):
         print('Фигуры под боем: ')
         print('   A B C D E F G H')
@@ -309,8 +275,6 @@ class Board():
 
         print(' └─────────────────┘')
         print('   A B C D E F G H')
-
-
     def fill(b):
         figures = {
             Rook(0, 0, False, b),
@@ -353,13 +317,9 @@ class Board():
             Pawn(6, 7, True, b)
         }
         return figures
-
-
 def main_chess(b, figures):
     move_number = 1
-
     while True:
-
         color = move_number % 2
         if color == True:
             print(move_number, "Ход белых:")
@@ -409,26 +369,9 @@ def main_chess(b, figures):
                 b.board[x0][y0] = '·'
                 i.x0 = x
                 i.y0 = y
-
-
-
-
-
 def main():
     b = Board()
     figures = Board.fill(b)
     main_chess(b, figures)
 
-
-
-
 main()
-
-
-
-
-
-
-
-
-
