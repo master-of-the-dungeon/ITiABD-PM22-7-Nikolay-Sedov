@@ -1,68 +1,81 @@
-class VisitorNode:
-    def __init__(self, name, surname, date, exhibits, ratings):
+from typing import Dict, List
+
+class Exhibit:
+    def __init__(self, name: str, rating: int):
         self.name = name
-        self.surname = surname
-        self.date = date
-        self.exhibits = exhibits
-        self.ratings = ratings
-        self.prev = None
-        self.next = None
+        self.rating = rating
 
+class Visitor:
+    def __init__(self, first_name: str, last_name: str, date_visited: str):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.date_visited = date_visited
+        self.exhibits: Dict[str, Exhibit] = {}
 
-class MuseumVisitorList:
+class Node:
+    def __init__(self, visitor: Visitor):
+        self.visitor = visitor
+        self.prev: Node = None
+        self.next: Node = None
+
+class MuseumVisitors:
     def __init__(self):
-        self.head = None
-        self.tail = None
+        self.head: Node = None
+        self.tail: Node = None
 
-    def is_empty(self):
-        return self.head is None
-
-    def add_visitor(self, name, surname, date, exhibits, ratings):
-        new_node = VisitorNode(name, surname, date, exhibits, ratings)
-        if self.is_empty():
-            self.head = self.tail = new_node
+    def add_visitor(self, visitor: Visitor):
+        node = Node(visitor)
+        if self.head is None:
+            self.head = node
+            self.tail = node
         else:
-            new_node.prev = self.tail
-            self.tail.next = new_node
-            self.tail = new_node
+            self.tail.next = node
+            node.prev = self.tail
+            self.tail = node
 
-    def get_visitor_info(self, visitor_node):
-        return {
-            'name': visitor_node.name,
-            'surname': visitor_node.surname,
-            'date': visitor_node.date,
-            'exhibits': visitor_node.exhibits,
-            'ratings': visitor_node.ratings
-        }
-
-    def get_visitors_by_date(self, date):
-        visitors = []
+    def get_visitor_list(self) -> List[Dict]:
+        visitor_list = []
         current_node = self.head
         while current_node is not None:
-            if current_node.date == date:
-                visitors.append(self.get_visitor_info(current_node))
+            visitor = {
+                "first_name": current_node.visitor.first_name,
+                "last_name": current_node.visitor.last_name,
+                "date_visited": current_node.visitor.date_visited,
+                "exhibits": current_node.visitor.exhibits
+            }
+            visitor_list.append(visitor)
             current_node = current_node.next
-        return visitors
+        return visitor_list
 
-    def get_average_rating(self, exhibit_name):
-        total_rating = 0
-        num_visitors = 0
-        current_node = self.head
-        while current_node is not None:
-            if exhibit_name in current_node.exhibits:
-                exhibit_index = current_node.exhibits.index(exhibit_name)
-                total_rating += current_node.ratings[exhibit_index]
-                num_visitors += 1
-            current_node = current_node.next
-        if num_visitors > 0:
-            return total_rating / num_visitors
-        else:
-            return None
+    def add_exhibit_rating(self, visitor: Visitor, exhibit_name: str, rating: int):
+        if visitor in self.get_visitor_list():
+            current_node = self.head
+            while current_node is not None:
+                if current_node.visitor == visitor:
+                    exhibit = Exhibit(exhibit_name, rating)
+                    current_node.visitor.exhibits[exhibit_name] = exhibit
+                    break
+                current_node = current_node.next
+museum = MuseumVisitors()
 
-visitor_list = MuseumVisitorList()
-visitor_list.add_visitor('John', 'Doe', '2023-04-15', ['paintings', 'sculptures'], [4, 5])
-visitor_list.add_visitor('Jane', 'Doe', '2023-04-14', ['paintings', 'photography'], [3, 4])
-visitor_list.add_visitor('Bob', 'Smith', '2023-04-14', ['sculptures', 'photography'], [5, 4])
+visitor1 = Visitor("Mihail", "Gorshenev", "2023-05-01")
+visitor2 = Visitor("Till", "Lindemann", "2023-05-02")
+visitor3 = Visitor("Bob", "Dylan", "2023-05-03")
 
-print(visitor_list.get_visitors_by_date('2023-04-14'))
-print(visitor_list.get_average_rating('paintings'))
+museum.add_visitor(visitor1)
+museum.add_visitor(visitor2)
+museum.add_visitor(visitor3)
+
+visitor1.exhibits["Painting 1"] = Exhibit("Painting 1", 4)
+visitor1.exhibits["Sculpture 1"] = Exhibit("Sculpture 1", 5)
+visitor2.exhibits["Painting 1"] = Exhibit("Painting 1", 3)
+visitor2.exhibits["Sculpture 2"] = Exhibit("Sculpture 2", 4)
+visitor3.exhibits["Painting 2"] = Exhibit("Painting 2", 4)
+visitor3.exhibits["Sculpture 3"] = Exhibit("Sculpture 3", 3)
+
+visitor_list = museum.get_visitor_list()
+
+for visitor in visitor_list:
+    print(f"{visitor['first_name']} {visitor['last_name']} visited on {visitor['date_visited']}")
+    for exhibit_name, exhibit in visitor['exhibits'].items():
+        print(f"\t{exhibit_name}: {exhibit.rating}")
