@@ -259,10 +259,15 @@ class shashki():
     def hod_figur(self, x, y, doska):
         if doska.board[x][y] != '·' and doska.board[x][y].isupper() == self.number_igroka:
             return False
-        if abs(x - self.x0) == 1 and abs(y - self.y0) == 1:
+        if abs(x - self.x0) == 2 and abs(y - self.y0) == 2:  # Check for eating move
+            mid_x = (x + self.x0) // 2  # Calculate the row of the eaten checker
+            mid_y = (y + self.y0) // 2  # Calculate the column of the eaten checker
+            if doska.board[mid_x][mid_y].isupper() != self.number_igroka:
+                doska.board[mid_x][mid_y] = '·'  # Remove the eaten checker from the board
+                return True
+        elif abs(x - self.x0) == 1 and abs(y - self.y0) == 1:  # Regular move
             return True
-        else:
-            return False
+        return False
 
 
 class desk():
@@ -319,12 +324,16 @@ class desk():
         fig = {shashki(7, 0, True, doska), shashki(7, 2, True, doska), shashki(7, 4, True, doska),
                shashki(7, 6, True, doska),
                shashki(6, 1, True, doska), shashki(6, 3, True, doska), shashki(6, 5, True, doska),
+               shashki(6, 7, True, doska),
                shashki(5, 0, True, doska), shashki(5, 2, True, doska), shashki(5, 4, True, doska),
                shashki(5, 6, True, doska),
+
                shashki(2, 1, False, doska), shashki(2, 3, False, doska), shashki(2, 5, False, doska),
+               shashki(2, 7, False, doska),
                shashki(1, 0, False, doska), shashki(1, 2, False, doska), shashki(1, 4, False, doska),
                shashki(1, 6, False, doska),
-               shashki(0, 1, False, doska), shashki(0, 3, False, doska), shashki(0, 5, False, doska)}
+               shashki(0, 1, False, doska), shashki(0, 3, False, doska), shashki(0, 5, False, doska),
+               shashki(0, 7, False, doska)}
         return fig
 
 
