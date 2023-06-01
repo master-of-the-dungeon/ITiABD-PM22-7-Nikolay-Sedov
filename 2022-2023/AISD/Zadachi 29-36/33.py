@@ -36,13 +36,21 @@ head.next = Node(3)
 head.next.prev = head
 head.next.next = Node(5)
 head.next.next.prev = head.next
-head.next.next.next = Node(7)
+head.next.next.next = Node(79)
 head.next.next.next.prev = head.next.next
 head.next.next.next.next = head
 head.prev = head.next.next.next
 
+#Выводим список
+current = head
+while True:
+    print(current.val, end=' ')
+    current = current.next
+    if current == head:
+        break
+print('\n')
 # Удаляем элементы, которые больше 4
-head = delete_greater_than_value(head, 4)
+head = delete_greater_than_value(head, 14)
 
 # Выводим список
 current = head
