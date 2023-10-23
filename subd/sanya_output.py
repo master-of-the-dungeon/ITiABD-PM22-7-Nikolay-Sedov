@@ -25,6 +25,6 @@ def fetch_and_display_data(table_name):
 fetch_and_display_data("Publications")
 
 # Пример вывода данных из других таблиц
-# fetch_and_display_data("Readers")
+fetch_and_display_data("Readers")
 # fetch_and_display_data("PublicationPackages")
 # fetch_and_display_data("Users")
