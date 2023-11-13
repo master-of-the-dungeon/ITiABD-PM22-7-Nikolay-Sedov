@@ -1,33 +1,71 @@
 import tkinter as tk
-from tkinter import ttk
+from math import sin, cos, atan2, sqrt
 
-class BlackHoleDiagram(tk.Tk):
-    def __init__(self):
-        super().__init__()
-        self.title("Black Hole Diagram")
-        self.geometry("600x500")
+# Инициализация главного окна приложения
+root = tk.Tk()
+root.title("Black Hole Animation")
 
-        self.canvas = tk.Canvas(self, bg="white", width=500, height=400)
-        self.canvas.pack(pady=20)
+# Параметры для анимации
+width, height = 450, 450
+center = (width // 2, height // 2)
+photon_count = 50
+photon_radius = 2  # Радиус фотонов
+photon_speed = 3  # Скорость фотонов
+gravity_constant = 0.1  # Константа гравитации, начальное значение
 
-        # Черная дыра в центре
-        self.canvas.create_oval(200, 150, 300, 250, fill="black")
+# Инициализация холста
+canvas = tk.Canvas(root, width=width, height=height, bg="white")
+canvas.pack()
 
-        # Разные слои вокруг черной дыры
-        colors = ["#444", "#777", "#AAA", "#DDD"]
-        sizes = [(175, 125, 325, 275), (150, 100, 350, 300), (125, 75, 375, 325), (100, 50, 400, 350)]
-        for i, color in enumerate(colors):
-            self.canvas.create_oval(sizes[i], fill=color)
+# Рисуем черную дыру
+black_hole_radius = 40
+black_hole_id = canvas.create_oval(
+    center[0] - black_hole_radius, center[1] - black_hole_radius,
+    center[0] + black_hole_radius, center[1] + black_hole_radius,
+    fill="black"
+)
 
-        # Горизонтальная линия
-        self.canvas.create_line(0, 200, 500, 200)
+# Создаем фотоны
+photons = []
+for i in range(photon_count):
+    x, y = 0, (i + 0.5) * height / photon_count
+    photon = canvas.create_oval(
+        x - photon_radius, y - photon_radius,
+        x + photon_radius, y + photon_radius,
+        fill="red"
+    )
+    photons.append([photon, x, y])
 
-        # Шкала справа
-        for i in range(25, 376, 25):
-            self.canvas.create_line(480, i, 500, i, fill="red")
-            if i % 50 == 0:  # Большие деления на шкале
-                self.canvas.create_line(470, i, 500, i, fill="red")
+# Функция обновления позиции фотонов
+def update_photons():
+    for photon_data in photons:
+        photon_id, x, y = photon_data
+        dx = center[0] - x
+        dy = center[1] - y
+        distance = sqrt(dx**2 + dy**2)
+        angle = atan2(dy, dx)
+        force = gravity_constant / distance**2 if distance else 0
+        x += (photon_speed + force) * cos(angle)
+        y += (photon_speed + force) * sin(angle)
+        canvas.coords(photon_id, x - photon_radius, y - photon_radius,
+                      x + photon_radius, y + photon_radius)
+        photon_data[1], photon_data[2] = x, y
+        if x > width or y > height or x < 0 or y < 0:
+            photon_data[1], photon_data[2] = 0, (photons.index(photon_data) + 0.5) * height / photon_count
 
-if __name__ == "__main__":
-    app = BlackHoleDiagram()
-    app.mainloop()
+    root.after(50, update_photons)
+
+# Слайдер для изменения силы притяжения черной дыры
+def change_gravity(value):
+    global gravity_constant
+    gravity_constant = float(value)
+
+gravity_slider = tk.Scale(root, from_=0, to=0.5, resolution=0.01, length=400, orient='horizontal', label='Gravity Constant',
+                          command=change_gravity)
+gravity_slider.pack()
+gravity_slider.set(gravity_constant)
+
+update_photons()  # Запускаем анимацию
+
+root.mainloop()  # Запускаем цикл обработки событий Tkinter
+ 
