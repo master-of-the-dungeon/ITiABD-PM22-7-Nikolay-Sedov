@@ -102,6 +102,16 @@ def check_collisions():
             if player_lives == 0:
                 game_over()
                 return
+        
+        # Проверка касания врагом земли
+        if ey2 >= HEIGHT:
+            canvas.delete(enemy)
+            enemies.remove(enemy)
+            player_lives -= 1
+            update_lives()
+            if player_lives == 0:
+                game_over()
+                return
 
 # Игра окончена
 def game_over():
