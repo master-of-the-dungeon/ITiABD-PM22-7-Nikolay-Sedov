@@ -1,13 +1,12 @@
-
 -- Запросы с математическими функциями
 SELECT SQRT(COUNT(*)) FROM Записи_на_курсы GROUP BY Курс_ID;
-SELECT ROUND(YEAR(CURDATE()) - YEAR(Дата_рождения)) FROM Студенты;
-SELECT ABS(YEAR(Дата_окончания) - YEAR(Дата_начала)) FROM Курсы;
-SELECT MAX(YEAR(CURDATE()) - YEAR(Дата_рождения)), MIN(YEAR(CURDATE()) - YEAR(Дата_рождения)) FROM Студенты;
+SELECT ROUND(EXTRACT(YEAR FROM CURRENT_DATE) - EXTRACT(YEAR FROM Дата_рождения)) FROM Студенты;
+SELECT ABS(EXTRACT(YEAR FROM Дата_окончания) - EXTRACT(YEAR FROM Дата_начала)) FROM Курсы;
+SELECT MAX(EXTRACT(YEAR FROM CURRENT_DATE) - EXTRACT(YEAR FROM Дата_рождения)), MIN(EXTRACT(YEAR FROM CURRENT_DATE) - EXTRACT(YEAR FROM Дата_рождения)) FROM Студенты;
 
 -- Запросы с случайной и тригонометрической функциями
-SELECT * FROM Студенты ORDER BY RAND() LIMIT 1;
-SELECT SIN(ID) FROM Курсы;
+SELECT * FROM Студенты ORDER BY RANDOM() LIMIT 1;
+SELECT SIN(ID::FLOAT) FROM Курсы;
 
 -- Запросы для работы со строками
 SELECT ФИО || ' ' || Электронная_почта FROM Студенты;
@@ -21,9 +20,13 @@ SELECT PG_CLIENT_ENCODING();
 SELECT MD5(ФИО) FROM Студенты;
 
 -- Запросы с использованием CASE
-SELECT ID, Название, CASE WHEN DATEDIFF(Дата_окончания, Дата_начала) > 90 THEN 'Долгий' ELSE 'Короткий' END AS Длительность FROM Курсы;
-SELECT ФИО, CASE WHEN YEAR(CURDATE()) - YEAR(Дата_рождения) < 25 THEN 'Молодой' WHEN YEAR(CURDATE()) - YEAR(Дата_рождения) < 35 THEN 'Взрослый' ELSE 'Старший' END AS Возрастная_группа FROM Студенты;
+SELECT ID, Название, 
+    CASE 
+        WHEN (Дата_окончания - Дата_начала) > 90 THEN 'Долгий' 
+        ELSE 'Короткий' 
+    END AS Длительность 
+FROM Курсы;
 
 -- Запросы с использованием COALESCE и NULLIF
-SELECT COALESCE(Дата_окончания, 'Неизвестно') FROM Курсы;
+SELECT COALESCE(Дата_окончания::TEXT, 'Неизвестно') FROM Курсы;
 SELECT NULLIF(Электронная_почта, 'example@example.com') FROM Студенты;
