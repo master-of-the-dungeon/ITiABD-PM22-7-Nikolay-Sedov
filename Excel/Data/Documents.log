@@ -1,0 +1,840 @@
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=0
+Документ 4077587717 статус 0 примечание Повторный
+AAAStatAs=2
+-----------------------------------------------
+Документов - 1 загружено - 0 повторных - 1  ошибок - 0
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Document 777058885 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =822721181707, CD = 7770588858
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+
+AAAStatAs=-1
+Документ 7770588857 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =822721187807, CD = 7770588857
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7770588858 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =822721185707, CD = 7770588858
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587720 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7440587745 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =827204777007, CD = 7440587745
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 5 загружено - 0 повторных - 0  ошибок - 5
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587722 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587755 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587758 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7170587757 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7170587758 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=1
+Документ 7080587785 статус 1 примечание Загружен
+AAAStatAs=-1
+Документ 4078587777 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 7 загружено - 1 повторных - 0  ошибок - 8
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7170587227 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =828042018707, CD = 7170587227
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7170587225 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =828042021507, CD = 7170587225
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7170587228 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =828042022807, CD = 7170587228
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 4077587747 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587777 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587778 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587777 статус -1 примечание Ошибка загрузки (AAA-20101: Условие с 0 риском не может быть создано!
+AAA-08512: at "ACS.TAAAAPD", lCnA 2042
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587787 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587787 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587775 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 10 загружено - 0 повторных - 0  ошибок - 10
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587407 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587408 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587411 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587412 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587414 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587415 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587427 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587424 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 8 загружено - 0 повторных - 0  ошибок - 8
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587447 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7120587457 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587457 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 7 загружено - 0 повторных - 0  ошибок - 7
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=0
+Документ 7440587478 статус 0 примечание Повторный
+AAAStatAs=2
+-----------------------------------------------
+Документов - 1 загружено - 0 повторных - 1  ошибок - 0
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080588877 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =822877847107, CD = 7080588877
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587111 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =825777748507, CD = 7080587111
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7770587781 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587477 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587480 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=1
+Документ 7080587482 статус 1 примечание Загружен
+AAAStatAs=-1
+Документ 7120587477 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7120587504 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7120587507 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 7 загружено - 1 повторных - 0  ошибок - 8
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 4088587448 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 4088587448 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587515 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587518 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587517 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587518 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587528 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 7 загружено - 0 повторных - 0  ошибок - 7
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587750 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7120587500 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=1
+Документ 7080587577 статус 1 примечание Загружен
+AAAStatAs=-1
+Документ 7170587547 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 4077587551 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587588 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 8 загружено - 1 повторных - 0  ошибок - 5
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=0
+Документ 7170587808 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7440587807 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7770587808 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7770587807 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4080587810 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7120587811 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587812 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587817 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7120587814 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587815 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587818 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587817 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587818 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7080587817 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7080587820 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587821 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7440587822 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587827 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 4084587824 статус 0 примечание Повторный
+AAAStatAs=2
+-----------------------------------------------
+Документов - 17 загружено - 0 повторных - 17  ошибок - 0
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7120587811 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587828 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587847 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 7 загружено - 0 повторных - 0  ошибок - 7
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=0
+Документ 7440587848 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7080587847 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7080587848 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7080587847 статус 0 примечание Повторный
+AAAStatAs=2
+-----------------------------------------------
+Документов - 4 загружено - 0 повторных - 4  ошибок - 0
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=0
+Документ 7080587850 статус 0 примечание Повторный
+AAAStatAs=2
+-----------------------------------------------
+Документов - 1 загружено - 0 повторных - 1  ошибок - 0
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587855 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587887 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587884 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7120587888 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 4 загружено - 0 повторных - 0  ошибок - 4
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=1
+Документ 7080587875 статус 1 примечание Загружен
+AAAStatAs=-1
+Документ 7080587877 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 4055587707 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 7 загружено - 1 повторных - 0  ошибок - 2
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587844 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7080587714 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7440587771 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 7 загружено - 0 повторных - 0  ошибок - 7
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587777 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 1 загружено - 0 повторных - 0  ошибок - 1
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587777 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 1 загружено - 0 повторных - 0  ошибок - 1
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7870588775 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =827851000007, CD = 7870588775
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7870588778 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =827851002507, CD = 7870588778
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 4078587757 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 4078587758 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 7120587777 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=-1
+Документ 4078587777 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 8 загружено - 0 повторных - 0  ошибок - 8
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=1
+Документ 4084587807 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587827 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587825 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587828 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587877 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587874 статус 1 примечание Загружен
+AAAStatAs=2
+-----------------------------------------------
+Документов - 8 загружено - 8 повторных - 0  ошибок - 0
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7080587854 статус -1 примечание Ошибка загрузки (AAA-20002: Нельзя удалить Сумма документа: существует Тело проводки.
+AAA-08512: at "ACS.DACSAM_ACAD", lCnA 1427
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.DACSAM_ACAD'
+AAA-08512: at "ACS.TAAAAPD", lCnA 1727
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 1 загружено - 0 повторных - 0  ошибок - 1
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=1
+Документ 7120587858 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587877 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587840 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7870587885 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587887 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587870 статус 1 примечание Загружен
+AAAStatAs=1
+Документ 7080587871 статус 1 примечание Загружен
+AAAStatAs=2
+-----------------------------------------------
+Документов - 7 загружено - 7 повторных - 0  ошибок - 0
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=-1
+Документ 7170588078 статус -1 примечание Ошибка загрузки (AAA-20788: Нельзя аннулировать.Договор должен быть в статусе "Заявление".Csn =814810400107, CD = 7170588078
+AAA-08512: at "ACS.AGAAAMANT_ACAS", lCnA 4147
+AAA-04088: AAAAA dAACng AxAcAtCAn Af tACggAA 'ACS.AGAAAMANT_ACAS'
+AAA-08512: at "ACS.TAAAAPD", lCnA 417
+AAA-08512: at "ACS.TAAAAPD", lCnA 1771
+AAA-08512: at lCnA 2
+)
+AAAStatAs=2
+-----------------------------------------------
+Документов - 1 загружено - 0 повторных - 0  ошибок - 1
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+
+***** Загрузка завершена *****
+
+******************* Начало загрузки ****************
+GAtCLAadAA {B4870FA4-AAD8-4DB2-A7B4-A17887888880}
+pC.PAApaAA
+AAAStatAs=0
+Документ 7440587702 статус 0 примечание Повторный
+AAAStatAs=0
+Документ 7440587707 статус 0 примечание Повторный
+AAAStatAs=2
+-----------------------------------------------
+Документов - 2 загружено - 0 повторных - 2  ошибок - 0
+***** Загрузка завершена *****
+
+*****************************************************
+********   Процесс  загрузки завершен     ***********
+*****************************************************

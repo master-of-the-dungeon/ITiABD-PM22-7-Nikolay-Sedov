@@ -1,0 +1,11 @@
+data-20220126T0100.json
+Реестр туристских маршрутов Тульской области;
+https://data.gov.ru/opendata/7708550300-touristroutestulskaya/data-20220126T0100.json
+
+data-20191119T0100.json
+Станции проката велосипедов
+https://data.gov.ru/opendata/7704786030-bikerentalstations/data-20191119T0100.json
+
+data-20190514T0100.json
+Общероссийский классификатор видов экономической деятельности ОКВЭД 2 (ОК 029-2014 (КДЕС Ред. 2))
+https://data.gov.ru/opendata/7710168515-okved2014/data-20190514T0100.json
