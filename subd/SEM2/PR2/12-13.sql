@@ -49,8 +49,7 @@ EXECUTE FUNCTION before_delete_aircraft();
 CREATE OR REPLACE FUNCTION update_total_amount()
 RETURNS TRIGGER AS $$
 BEGIN
-  -- Здесь должен быть SQL код для обновления total_amount в таблице bookings
-  -- в зависимости от изменений в ticket_flights
+
   RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
