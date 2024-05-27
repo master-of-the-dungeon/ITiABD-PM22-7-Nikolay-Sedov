@@ -1,6 +1,7 @@
 import os
 import shutil
 from ui_functions import *
+import time
 
 def list_directory(path):
     """Возвращает список файлов и директорий в указанной директории."""

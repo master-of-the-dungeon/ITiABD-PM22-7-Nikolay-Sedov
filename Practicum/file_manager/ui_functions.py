@@ -72,3 +72,31 @@ def process_key_press(stdscr, left_win, right_win, current_panel):
         pass
     elif k == ord('q'):
         exit_program(stdscr)
+
+def draw_status_bar(stdscr, messages):
+    height, width = stdscr.getmaxyx()
+    lines = []
+    current_line = ""
+    
+    for message in messages:
+        if len(current_line) + len(message) + 3 > width:  # +3 for " | "
+            lines.append(current_line)
+            current_line = message
+        else:
+            if current_line:
+                current_line += " | " + message
+            else:
+                current_line = message
+    
+    if current_line:
+        lines.append(current_line)
+    
+    stdscr.attron(curses.color_pair(1))
+    for i, line in enumerate(lines):
+        stdscr.addstr(height - len(lines) + i, 0, line)
+    stdscr.attroff(curses.color_pair(1))
+    stdscr.refresh()
+
+
+
+
