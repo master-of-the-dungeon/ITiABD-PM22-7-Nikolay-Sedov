@@ -2,13 +2,12 @@ import os
 import shutil
 from ui_functions import *
 
-
 def list_directory(path):
     """Возвращает список файлов и директорий в указанной директории."""
     try:
         return os.listdir(path)
     except OSError as e:
-        return f"Ошибка при чтении директории: {e}"
+        return [f"Ошибка при чтении директории: {e}"]
 
 def change_directory(path):
     """Изменяет текущую рабочую директорию на указанную."""
@@ -86,4 +85,13 @@ def open_file(path):
             return file.read()
     except IOError as e:
         return f"Ошибка при открытии файла: {e}"
+
+def list_directory(path):
+    """Возвращает список файлов и директорий в указанной директории."""
+    try:
+        contents = os.listdir(path)
+        contents.insert(0, "..")  # Добавляем элемент для перехода на каталог выше
+        return contents
+    except OSError as e:
+        return [f"Ошибка при чтении директории: {e}"]
 
