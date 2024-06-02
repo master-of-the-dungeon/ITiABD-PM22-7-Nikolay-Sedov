@@ -1,5 +1,3 @@
-
-
 import pygame
 import sys
 
@@ -13,14 +11,14 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 # Загрузка фонового изображения
 background = pygame.image.load('C:\\Users\\sedof\\Documents\\vscode\\ITiABD-PM22-7-Nikolay-Sedov\\Practicum\\pygame\\laba3\\1700.jpg')
 background_x, background_y = 0, 0
+background_rect = background.get_rect()
 
 # Базовый класс для спрайтов
 class Entity(pygame.sprite.Sprite):
     def __init__(self, image_file, speed=0, x=0, y=0):
         super().__init__()
         self.image = pygame.image.load(image_file)
-        self.rect = self.image.get_rect(x=x, y=y)
-        
+        self.rect = self.image.get_rect(topleft=(x, y))
         self.speed = speed
 
     def update(self):
@@ -29,7 +27,7 @@ class Entity(pygame.sprite.Sprite):
 # Класс игрока
 class Player(Entity):
     def __init__(self):
-        super().__init__(r'C:\\Users\\sedof\\Documents\\vscode\\ITiABD-PM22-7-Nikolay-Sedov\\Practicum\\pygame\\laba3\\Bringer-of-Death_Walk_7.png', 5, 100, screen_height // 2)
+        super().__init__(r'C:\\Users\\sedof\\Documents\\vscode\\ITiABD-PM22-7-Nikolay-Sedov\\Practicum\\pygame\\laba3\\Bringer-of-Death_Walk_7.png', 1, 100, screen_height // 2)
 
     def update(self, keys):
         if keys[pygame.K_LEFT]:
@@ -40,8 +38,26 @@ class Player(Entity):
             self.rect.y -= self.speed
         if keys[pygame.K_DOWN]:
             self.rect.y += self.speed
-        self.rect.x = max(0, min(screen_width - self.rect.width, self.rect.x))
-        self.rect.y = max(0, min(screen_height - self.rect.height, self.rect.y))
+        self.rect.clamp_ip(screen.get_rect())  # Ограничение перемещения внутри экрана
+
+        # Обновление позиции фона
+        global background_x, background_y
+        if self.rect.right >= screen_width - 100:
+            background_x -= self.speed
+            if background_x < screen_width - background_rect.width:
+                background_x = screen_width - background_rect.width
+        if self.rect.left <= 100:
+            background_x += self.speed
+            if background_x > 0:
+                background_x = 0
+        if self.rect.bottom >= screen_height - 100:
+            background_y -= self.speed
+            if background_y < screen_height - background_rect.height:
+                background_y = screen_height - background_rect.height
+        if self.rect.top <= 100:
+            background_y += self.speed
+            if background_y > 0:
+                background_y = 0
 
 # Класс врага
 class Enemy(Entity):
@@ -52,11 +68,15 @@ class Enemy(Entity):
 class Arrow(Entity):
     def __init__(self, x, y):
         super().__init__(r'C:\\Users\\sedof\\Documents\\vscode\\ITiABD-PM22-7-Nikolay-Sedov\\Practicum\\pygame\\laba3\\arrow.png', 1, x, y)
-        self.image = pygame.transform.scale(self.image, [30,30] )
+        self.image = pygame.transform.scale(self.image, [50, 20])  # Уменьшим размер изображения для более адекватного отображения
+        self.rect = self.image.get_rect()
+        self.rect.x = x
+        self.rect.centery = y
+
     def update(self):
         self.rect.x += self.speed
         if self.rect.x > screen_width:
-            self.kill() # Удалить, если вышла за пределы экрана
+            self.kill()  # Удалить, если вышла за пределы экрана
 
 # Создание спрайтов
 player = Player()
@@ -86,8 +106,6 @@ while running:
 
     keys = pygame.key.get_pressed()
     player.update(keys)
-
-    # Обновление спрайтов
     arrows.update()
     enemies.update()
 
